@@ -2,7 +2,7 @@ import { store } from "@/redux/store";
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://192.168.31.248:3000",
+  baseURL: "https://task-manager-backend-m3tk.onrender.com",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",

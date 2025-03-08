@@ -28,7 +28,6 @@ const LoginForm = () => {
   const dispatch = useAppDispatch();
 
   const onSuccess = (user: User) => {
-    console.log(user);
     dispatch(login(user));
   };
 
